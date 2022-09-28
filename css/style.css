@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetican, sans-serif;
+}
+.container{
+   display: grid;
+   grid-gap: 10px;
+   grid-auto-rows: minmax(100px, auto);
+}
+
+.header{
+    background-color: lightseagreen;
+    grid-row: 1;
+    margin-top: 0;
+    margin-top: 5%;
+    width: 100%;
+}
+.navbar{
+    background-color: lightseagreen;
+    grid-row: 2;
+    width: 100%;
+    margin-top: 15%;
+}
+.section{
+    background-color: lightseagreen;
+    grid-row: 3;
+    width: 100%;
+    margin-top: 25%;
+}
+.footer{
+     background-color: lightseagreen;
+    grid-row: 4;
+     margin-top: 45%;
+     margin-bottom: 0;
+     width: 100%;
+ }
