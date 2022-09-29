@@ -97,3 +97,6 @@ ul.breadcrumb li+li:before {
 .blod{
     font-weight : bold;
 }
+.containerProduct{
+    display : flex;
+}
