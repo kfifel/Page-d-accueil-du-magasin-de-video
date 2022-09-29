@@ -5,7 +5,9 @@ body{
 }
 ul, li, a{
     font-size: 16px;
-    color: white;
+    font-family: "Montserrat", sans-serif;
+    color:antiquewhite;
+    text-decoration: none;
 }
 
 header{
@@ -13,7 +15,7 @@ header{
     margin-left: 0rem;
     background-color: #4a9151;
     display: flex;
-    padding : 30px 10%;
+    padding : 17px 3%;
 }
 
 
@@ -21,7 +23,7 @@ nav{
     margin-top: 0rem;
     margin-left: 2%;
     width : 96%;
-    height : 3rem;
+    display: flex;
     background-color: #790012;
 }
 
@@ -43,16 +45,37 @@ footer{
 .logo{
     cursor: pointer;
     border-radius : 50%;
-    width : 50px;
+    width : 70px;
     height : 50px;
 }
-.navLinks li{
+.headerLinks li {
     display: inline-block;
     padding: 0px 20px;
 }
-.navLinks li a {
+.headerLinks li a{
+    transition: all 0.3s ease 0s;
+}
+.headerLinks li a:hover {
+    color : cadetblue;
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navLinks li a{
     transition: all 0.3s ease 0s;
 }
 .navLinks li a:hover {
     color : cadetblue;
+}
+.productImage{
+    height: 200px;
+    width: 80px;
+}
+.product{
+    border: 1px solid black;
+    width : 15%;
+    justify-content: center;
+    margin : 5px;
 }
